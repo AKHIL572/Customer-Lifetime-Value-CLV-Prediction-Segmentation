@@ -1,0 +1,20 @@
+# Core data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Model saving/loading
+joblib
+
+# Jupyter environment
+jupyter
+notebook
+
+# Streamlit app
+streamlit
