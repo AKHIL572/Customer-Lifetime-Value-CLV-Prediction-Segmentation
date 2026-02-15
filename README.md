@@ -338,6 +338,7 @@ Aspiring Data Scientist | Machine Learning Enthusiast
 # 📬 Contact
 
 Feel free to connect for collaboration or discussion.
+akhilthottekkat135@gmail.com
 
 ---
 
