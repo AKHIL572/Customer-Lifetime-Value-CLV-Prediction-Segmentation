@@ -1,0 +1,44 @@
+{
+  "model_name": "GradientBoosting",
+  "training_date": "2026-08-01 13:40:20",
+  "target_definition": "Total revenue in the 6-month window following cutoff date 2011-06-09",
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary",
+    "TotalQuantity",
+    "AvgOrderValue",
+    "AvgBasketSize",
+    "AvgPurchaseIntervalDays",
+    "TenureDays"
+  ],
+  "best_hyperparameters": {
+    "subsample": 1.0,
+    "n_estimators": 300,
+    "max_depth": 3,
+    "learning_rate": 0.03
+  },
+  "n_training_customers": 2791,
+  "test_set_metrics": {
+    "MAE_GBP": 899.76,
+    "RMSE_GBP": 2767.74,
+    "R2": 0.3811,
+    "MAE_as_pct_of_mean_CLV": 58.74
+  },
+  "baseline_metrics": {
+    "mean_baseline_MAE_GBP": 1566.16,
+    "naive_past_equals_future_MAE_GBP": 794.1,
+    "improvement_over_naive_baseline_pct": -13.31
+  },
+  "pct_customers_with_zero_target": 30.53,
+  "segmentation_thresholds": {
+    "Low_Value_pct": 70,
+    "Medium_Value_pct": 90,
+    "High_Value_pct": 100
+  },
+  "known_limitations": [
+    "No multi-period walk-forward validation due to dataset length",
+    "Cannot score customers with zero purchase history (cold-start)",
+    "Wider prediction error for extreme high-value customers"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "quantiles": [
+    0.0,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "labels": [
+    "Low Value",
+    "Medium Value",
+    "High Value"
+  ],
+  "value_thresholds_gbp": [
+    0.14,
+    283.18,
+    1279.03,
+    59021.63
+  ]
+}
