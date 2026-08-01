@@ -1,0 +1,7 @@
+,step,rows_before,rows_after,rows_removed,pct_removed_this_step
+0,Remove duplicate rows,541909,536641,5268,0.972
+1,Remove cancellation rows (preserved separately),536641,527390,9251,1.724
+2,Remove non-product StockCodes,527390,525066,2324,0.441
+3,Remove missing-CustomerID rows,525066,391183,133883,25.498
+4,Remove residual non-positive Quantity/Price rows,391183,391150,33,0.008
+TOTAL,— all steps —,541909,391150,150759,27.82
